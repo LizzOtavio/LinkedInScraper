@@ -12,11 +12,13 @@ The usage is very simple. Firstly you need to install the required modules avail
 
 You should see a dialog window opening up, with various input fields. Insert the LinkedIn login information, the job title, location and the amount of jobs to search for.
 
-![Template Image](Images\gui_sample.png)
+![GUI Image](Images/gui_sample.png)
 
 Once the procedure is finished, an Excel file is created on the project's working directory.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y2rAuwX28jM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=y2rAuwX28jM
+" target="_blank"><img src="http://img.youtube.com/vi/y2rAuwX28jM/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="720" height="480" border="10" /></a>
 
 ## Future Work
 
