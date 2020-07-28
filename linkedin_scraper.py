@@ -177,14 +177,12 @@ def get_jobs_linkedin(email, password, num_jobs, search_job, search_location, st
                 break
     
     #This line converts the dictionary object into a pandas DataFrame.
-    df = pd.DataFrame(jobs)
+    
     save_path = os.getcwd() + '\\Scraped_Jobs.xlsx'  
-
+    df = pd.DataFrame(jobs)
     df.to_excel(save_path, index=False)
     
     statusLabel.setText('Status: LinkedIn Scraping Ended')
 
-    statusLabel.setText('Status: Excel File saved to: \n ' + save_path)
-
     driver.quit()
-    return  0 
+    return  save_path 

@@ -12,16 +12,16 @@ The usage is very simple. Firstly you need to install the required modules avail
 
 You should see a dialog window opening up, with various input fields. Insert the LinkedIn login information, the job title, location and the amount of jobs to search for.
 
-![Template Image](gui_sample.png)
+![Template Image](Images\gui_sample.png)
 
 Once the procedure is finished, an Excel file is created on the project's working directory.
 
-![](result.gif)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y2rAuwX28jM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Future Work
 
 The following improvements are in mind:
 
 - Add support for English-US LinkedIn information.
-- Run the Scrapper for at least 500 job postings. 
+- Run the Scraper for at least 500 job postings. 
 - Initiate a Data Analysis experiment with the collected data.

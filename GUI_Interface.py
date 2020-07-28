@@ -5,11 +5,6 @@ import pandas as pd
 import threading
 from linkedin_scraper import get_jobs_linkedin
 
-'''
-https://www.youtube.com/watch?v=Vde5SH8e1OQ
-'''
-
-
 class GUI(QMainWindow):
     def __init__(self, parent=None):
         super(GUI, self).__init__(parent)
@@ -39,15 +34,14 @@ class GUI(QMainWindow):
                 print('Exception Happened')
 
     def runScraper(self):
-        self.df = get_jobs_linkedin(self.userName, self.password, int(
-            self.searchNumber), self.jobTitle, self.jobLocation, self.StatusLabel)
-        print(self.df.head(10))
+        msg = get_jobs_linkedin(self.userName, self.password, int(self.searchNumber), self.jobTitle, self.jobLocation, self.StatusLabel)
+        QtWidgets.QMessageBox.information(self, 'Scraping Ended', 'Excel File saved to: \n '+ msg)
 
     def initiateGUI(self):
         fontLabel = QtGui.QFont('Times', 12, italic=True)
         fontTitle = QtGui.QFont('Times', 15, italic=True)
 
-        self.setWindowTitle('Login Information')
+        self.setWindowTitle('Python Program')
         self.setGeometry(100, 100, 350, 480)  # xpos, ypos, width, heigth
 
         self.TitleLabel = QtWidgets.QLabel(self)
