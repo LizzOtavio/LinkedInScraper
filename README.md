@@ -16,9 +16,9 @@ You should see a dialog window opening up, with various input fields. Insert the
 
 Once the procedure is finished, an Excel file is created on the project's working directory.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=y2rAuwX28jM
-" target="_blank"><img src="http://img.youtube.com/vi/y2rAuwX28jM/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="720" height="480" border="10" /></a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=frh0XwRL0yo
+" target="_blank"><img src="http://img.youtube.com/vi/frh0XwRL0yo/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="720" height="480" border="3" /></a>
 
 ## Future Work
 
